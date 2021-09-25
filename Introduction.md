@@ -29,18 +29,3 @@ Object files participate in program linking (building a program) and program exe
 
 
 
-
-
-#!/usr/bin/env bash
-
-export PKG_CONFIG_PATH=/home/astrol/aaa/install/grpc/lib/pkgconfig:${PKG_CONFIG_PATH}
-
-cmake -DCMAKE_BUILD_TYPE=Release \
-        -DENABLE_UNIT_TESTS=OFF -DENABLE_FUNC_TESTS=OFF \
-        -DCMAKE_PREFIX_PATH="/home/astrol/aaa/install/grpc/lib/cmake/grpc;/home/astrol/aaa/install/grpc/bin;/home/astrol/aaa/install/fmt/lib/cmake/fmt;/home/astrol/aaa/install/json/lib/cmake/nlohmann_json;/home/astrol/aaa/install/spdlog/lib/cmake/spdlog" \
-        -DCMAKE_INSTALL_PREFIX=/home/astrol/aaa/install/bear ..
-fmt: Version: 8.0.1
-json: 3.7.3
-spdlog: Version: 1.9.2
-grpc: Version: 18.0.0
-GCC: gcc version 8.4.0 
