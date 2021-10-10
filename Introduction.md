@@ -10,7 +10,7 @@ This chapter describes the object file format, called ELF (Executable and Linkin
   **可执行文件**。顾名思义，可执行文件中包含最后需要执行的程序。它的信息用于指导操作系统如何生成最后的进程映像。
 * A shared object file holds code and data suitable for linking in two contexts. First, the link editor [see ld(BA_OS)] processes the shared object file with other relocatable and shared object files to create another object file. Second, the dynamic linker combines it with an executable file and other shared objects to create a process image.
   
-  **共享库**。共享库中的代码和数据主要有两个用途。第一，静态链接器（例如GNU ld）利用共享库和可重定位文件生成最终的目标文件（可以是可执行文件，也可以是生成新的共享库）。第二，动态链接器（例如GNU ld-linux.so）利用共享库和可执行文件来生成最终的进程映像。
+  **共享库文件**。共享库中的代码和数据主要有两个用途。第一，静态链接器（例如GNU ld）利用共享库和可重定位文件生成最终的目标文件（可以是可执行文件，也可以是生成新的共享库）。第二，动态链接器（例如GNU ld-linux.so）利用共享库和可执行文件来生成最终的进程映像。
   
 Created by the assembler and link editor, object files are binary representations of programs intended to be executed directly on a processor. Programs that require other abstract machines, such as shell scripts, are excluded.
 
