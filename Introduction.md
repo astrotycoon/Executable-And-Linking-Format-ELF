@@ -18,8 +18,8 @@ Created by the assembler and link editor, object files are binary representation
 
 After the introductory material, this chapter focuses on the file format and how it pertains to building programs. Chapter 5 also describes parts of the object file, concentrating on the information necessary to execute a program.
 
-接下来分两部分讨论ELF文件。第一部分，介绍ELF的文件格式，着重介绍有利于帮助生成最终可执行文件的信息。第二部分，同样是介绍ELF的文件格式，不过着重于程序最终执行的信息。
-***
+接下来会分两部分讨论ELF文件。第一部分，介绍ELF的文件格式，重点关注那些与生成最终可执行文件有关的信息。第二部分，同样是介绍ELF的文件格式，不过重点关注那些程序最终执行需要的信息。
+
 
 # File Format 文件格式
 Object files participate in program linking (building a program) and program execution (running a program). For convenience and efficiency, the object file format provides parallel views of a file's contents, reflecting the differing needs of those activities. Figure 4-1 shows an object file's organization.
