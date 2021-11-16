@@ -5,3 +5,5 @@
 [Oracle - ELF Application Binary Interface](https://docs.oracle.com/cd/E37838_01/html/E36783/glcfv.html#scrolltoc)
 
 [链接程序和库指南](https://docs.oracle.com/cd/E26926_01/html/E25910/index.html)
+
+[ELF and ABI Standards](https://refspecs.linuxbase.org/)
