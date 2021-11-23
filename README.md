@@ -7,3 +7,5 @@
 [链接程序和库指南](https://docs.oracle.com/cd/E26926_01/html/E25910/index.html)
 
 [ELF and ABI Standards](https://refspecs.linuxbase.org/)
+
+[ELF: From The Programmer's Perspective](http://beefchunk.com/documentation/sys-programming/binary_formats/elf/elf_from_the_programmers_perspective/elf.html)
