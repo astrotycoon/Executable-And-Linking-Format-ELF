@@ -9,3 +9,5 @@
 [ELF and ABI Standards](https://refspecs.linuxbase.org/)
 
 [ELF: From The Programmer's Perspective](http://beefchunk.com/documentation/sys-programming/binary_formats/elf/elf_from_the_programmers_perspective/elf.html)
+
+[ELF Format Cheatsheet](https://gist.github.com/DtxdF/e6d940271e0efca7e0e2977723aec360)
